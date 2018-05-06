@@ -5,46 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
+    <title>Basic-Portfolio</title>
 </head>
 
 <body>
+        <div id="heading">
 
-    <div class="heading">
+            <header>
+                Hansung Lee
+            </header>
 
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4"><strong>Hansung Lee</strong></h1>
+            <div id="nav">
+                <ul>
+                    <li>
+                        <a id="portfolio_side_bar" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li id="side_bar1"> | </li>
+                    <li>
+                        <a id="contact_side_bar" href="contact.html">Contact</a>
+                    </li>
+                    <li id="side_bar2"> | </li>
+                    <li>
+                        <a id="about_side_bar" href="index.html">About</a>
+                    </li>
+                </ul>
             </div>
+       
+    </div>
 
+    <div class="col-md-8 offset-md-2">
+        <div class="about-main-content">
+            <div id="contents">
+                <h1>About me</h1>
 
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-
-            </ul>
-        </div>
-
-        <div class="content">
-            <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                    <h1 class="display-4">About Me</h1>
-                    <img src="images/about_me.jpg" class="rounded float-left" alt="...">
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nulla erat, pulvinar non pellentesque
+                <img id="my-image" src="images/about_me.jpg">
+                <div id="about-me-p">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nulla erat, pulvinar non pellentesque
                         nec, gravida in magna. Quisque eget neque nec nulla euismod dapibus varius id sapien. Praesent eget
                         tincidunt arcu. Nam eleifend dapibus turpis vel porta. Maecenas eget turpis diam. Pellentesque vestibulum
                         porta augue eu semper. Nullam condimentum mauris in purus euismod, et aliquet lacus eleifend. Quisque
                         pharetra urna viverra, molestie velit eget, viverra lectus.</p>
-                    <p class="lead">Nam sed felis nunc. Maecenas scelerisque felis at ipsum porttitor, non cursus ipsum aliquam. Suspendisse
+
+                    <p>Nam sed felis nunc. Maecenas scelerisque felis at ipsum porttitor, non cursus ipsum aliquam. Suspendisse
                         cursus sem bibendum scelerisque euismod. Vivamus scelerisque id orci sed malesuada. Proin a turpis
                         at turpis sagittis fermentum. Sed interdum varius suscipit. Suspendisse ac interdum felis. Nunc quis
                         congue purus. Proin vitae elementum quam, ac rhoncus tortor. Aenean interdum velit faucibus enim
@@ -52,18 +58,16 @@
                         eu ac lacus.</p>
                 </div>
             </div>
-
-        </div>
-
-    </div>
-
-
-
-    <div class="card text-center">
-        <div class="card-footer text-muted">
-            Copyright&#169;
         </div>
     </div>
+
+    <footer class="page-footer">
+        Copyright&#169;
+    </footer>
+
+
+
+
 
 </body>
 

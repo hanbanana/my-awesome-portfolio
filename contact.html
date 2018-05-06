@@ -5,68 +5,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-        crossorigin="anonymous">
+    crossorigin="anonymous">
+    <title>Document</title>
 </head>
 
 <body>
-    <div class="heading">
+    <div id="heading">
 
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">Hansung Lee</h1>
-            </div>
+        <header>
+            Hansung Lee
+        </header>
 
-
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">About</a>
+        <div id="nav">
+            <ul>
+                <li>
+                    <a id="portfolio_side_bar" href="portfolio.html">Portfolio</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                <li id="side_bar1"> | </li>
+                <li>
+                    <a id="contact_side_bar" href="contact.html">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <li id="side_bar2"> | </li>
+                <li>
+                    <a id="about_side_bar" href="index.html">About</a>
                 </li>
-
             </ul>
         </div>
+    </div>
+    <div class="col-md-8 offset-md-2">
+    <div class="contact-main-content">
+        <div id="contents">
+            <h1>Contact</h1>
 
-        <div class="content">
-            <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                    <h1 class="display-4">About Me</h1>
+            <div class="container">
+                <form action="/action_page.php">
+                    <label for="name">Name</label>
+                    <input type="text" id="fname" name="name" placeholder="John Smith">
 
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Your name</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                        </div>
+                    <label for="email">Email</label>
+                    <input type="text" id="lname" name="email" placeholder="example@gmail.com">
 
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
-                        </div>
-                        <input class="btn btn-primary" type="submit" value="Submit">
-                    </form>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="" style="height:200px"></textarea>
 
-                </div>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
-
-        </div>
-
-    </div>
-
-    <div class="card text-center">
-        <div class="card-footer text-muted">
-            Copyright&#169;
         </div>
     </div>
+    </div>
+
+    <footer class="page-footer">
+        Copyright&#169;
+    </footer>
+
 
 </body>
 

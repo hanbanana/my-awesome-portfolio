@@ -5,85 +5,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    <link rel="stylesheet" type="text/css" href="assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
-    <style>
-    </style>
-
+    <title>Document</title>
 </head>
 
 <body>
-    <div class="heading">
+    <div id="heading">
 
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">Hansung Lee</h1>
-            </div>
+        <header>
+            Hansung Lee
+        </header>
 
-
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">About</a>
+        <div id="nav">
+            <ul>
+                <li>
+                    <a id="portfolio_side_bar" href="portfolio.html">Portfolio</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                <li id="side_bar1"> | </li>
+                <li>
+                    <a id="contact_side_bar" href="contact.html">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <li id="side_bar2"> | </li>
+                <li>
+                    <a id="about_side_bar" href="index.html">About</a>
                 </li>
-
             </ul>
         </div>
+    </div>
 
-        <div class="content">
-            <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                    <h1 class="display-4">Portfolio</h1>
-                    <div class="container">
-                        <figure class="figure">
-                            <img src="images/portfolio_img1.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption"><a target="_blank" href="https://www.google.com">Hangman</a></figcaption>
-                        </figure>
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="portfolio-main-content">
+                <div id="portfolio">
+                    <h1>Portfolio</h1>
 
-                        <figure class="figure">
-                            <img src="images/portfolio_img2.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption"><a target="_blank" href="https://www.google.com">RPG Game</a></figcaption>
-                        </figure>
-
-                        <figure class="figure">
-                            <img src="images/portfolio_img3.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption"><a target="_blank" href="https://www.google.com">Trivia Game</a></figcaption>
-                        </figure>
-                        
-                        <figure class="figure">
-                            <img src="images/portfolio_img4.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption"><a target="_blank" href="https://www.google.com">Rutgers Info Widget</a></figcaption>
-                        </figure>
-
-                        <figure class="figure">
-                            <img src="images/portfolio_img5.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption"><a target="_blank" href="https://www.google.com">Rock Paper Scissors</a></figcaption>
-                        </figure>
-
-
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h5 class="card-title">Psychic Game</h5>
+                                <a href="https://hanbanana.github.io/Psychic-Game/" target="_blink" class="btn btn-primary">Go Psychic Game</a>
+                            </div>
+                        </div>
                     </div>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h5 class="card-title">Psychic Game</h5>
+                                <a href="#" class="btn btn-primary">Go Psychic Game</a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+
             </div>
         </div>
     </div>
+    <footer class="portfolio-page-footer">
+        Copyright&#169;
+    </footer>
 
 
-    <div class="card text-center">
-        <div class="card-footer text-muted">
-            Copyright&#169;
-        </div>
-    </div>
+
 
 
 
 </body>
-
-
 
 </html>
